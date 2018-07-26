@@ -1,5 +1,6 @@
 class HelloWorld
 {
+	void displayDate(){System.out.println("Today Date is-> 25.07.2018");}
 	public static void main()
 	{
 		System.out.println("Hello Persistent ");
