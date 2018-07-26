@@ -1,10 +1,12 @@
 class HelloWorld
 {
-	static void displayDate(){System.out.println("Today Date is-> 25.07.2018");}
-	public static void main()
+	 void displayDate(){System.out.println("Today Date is-> 25.07.2018");}
+	public static void main(String args[])
 	{
 		System.out.println("Hello Persistent ");
 		displayDate();
+		HelloWorld obj=new HelloWorld();
+		obj.displayDate();
 	}
 	
 }
